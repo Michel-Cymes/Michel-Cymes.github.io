@@ -1389,41 +1389,7 @@
       }
     }
   </style>
-  <div id="comeback" class="comeback_layout">
-    <div class="comeback_wrapper">
-      <div class="comeback_container center-block">
-        <span class="comeback_close" id="comeback_close">
-          <img src="images/cross.png" width="21" height="21"></span>
-
-        <h1 style="margin: 0 auto; width: 300px;">Tunggu !</h1>
-        <br>
-        <p>
-          Hari ini, Diabmine menawarkan harga dengan diskon hingga 50%!
-        </p>
-        <img class="comeback_img" src="images/prod.png">
-        <br>
-        <a class="btn to-form" href="#toform">Dapatkan segera !</a>
-      </div>
-    </div>
-  </div>
   
-  <script>
-    const modal = document.querySelector(".comeback_layout");
-    const closeBtn = document.querySelector(".comeback_close");
-
-    function close() {
-      modal.remove();
-    }
-    document.addEventListener(
-      "mouseleave",
-      () => (modal.style.display = "block")
-    );
-
-    closeBtn.addEventListener("click", close);
-
-    modal.addEventListener("click", close);
-  </script>
-
 
 
   <script src="js/main.js"></script>
