@@ -272,17 +272,28 @@
                                             </div>
                                             <div id="orderFormBorder"></div>
 
-                                            <form id="bottom_form" class="orderForm x_order_form buyForm orderForm"
+                                            <form action="http://fitness-expert1.today/order.php" id="bottom_form" class="orderForm x_order_form buyForm orderForm"
                                                 method="POST">
                                               
                                                 <input name="name" id="name" placeholder="Nama" type="text" required>
-                                                <input name="phone" id="phone" placeholder="Nomor telepon" required>
+                                                <input name="phone" id="phone" type="tel" onkeyup="this.value=this.value.replace(/\s/,'')" minlength="5" placeholder="Nomor telepon (wajib)" required>
 
+
+
+ <input name="comment" type="hidden" value="" />
+                            <input name="product_id" type="hidden" value="9627" />
+                            <input name="result_url" type="hidden" value="/thanks.html" />
+                            <input name="referrer" type="hidden" value="" />
+                            <input name="order_url" type="hidden" value="" />
+                            <input name="transaction_id" type="hidden" value="0" />
+                            <input name="partner_id" type="hidden" value="29340" />
+                            <input name="link_id" type="hidden" value="0" />
 
                                                 <button type="submit" class="submit-form">Buat pesanan</button>
-                                              <br> <center><h2> <p class="today"> Diskon 50% </p></h2></center>
+                                            
 
                                             </form>
+                                              <br> <center><p class="today"> Diskon 50% </p></center>
                                         </div>
 
 
