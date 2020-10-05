@@ -1,0 +1,274 @@
+
+body {
+    font-family: 'Georgia', serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.logo {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.logo a {
+    display: inline-block;
+}
+
+.baseline {
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+.baseline, .baseline a {
+    color: rgb(44, 44, 43);
+    text-decoration: none;
+}
+
+.header_navigation {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.header_navigation a, .header_navigation a:hover {
+    text-decoration: none;
+    color: #2C2C2B;
+}
+.header_navigation a {
+    color: #CF4B32;
+}
+.header_navigation .active, .header_navigation .active a {
+    color: #2C2C2B;
+}
+.header_navigation .header_navigation_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    padding: 2em 0;
+    margin-top: 2em;
+    /*border-top: 2px solid #000;*/
+    font-size: 0.9em;
+    background: #f5f5f5;
+}
+footer .copyright {}
+footer .footer_links {}
+footer .footer_links a, footer .footer_links a:hover {
+    color: #000;
+    text-decoration: none;
+}
+footer .social_links a {
+    color: #000;
+    margin: 0 5px;
+}
+
+.form_container .form_background {
+    width: 979px;
+    /*height: 521px;*/
+    border-bottom: rgba(207, 75, 50, 1) solid 3px;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("bg_home.jpg");
+    padding-bottom: 2.5em;
+    max-width: 100%;
+}
+
+.form_title p {
+    padding-top: 23em;
+    padding-left: 2em;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: 600;
+    color: #FFF;
+    line-height: 1;
+}
+.form_contact .form_title p {
+    color: rgb(136, 44, 44);
+}
+/*.form_sourcils .form_title p {
+    padding-top: 16em;
+    padding-left: 16em;
+}*/
+.form_eyeliner .form_title p {
+    color: rgb(136, 44, 44);
+    text-align: right;
+}
+.form_levres .form_title p {
+    color: rgb(136, 44, 44);
+    text-align: right;
+}
+
+.form_container form, form.form_container {
+    background-color: rgba(247, 215, 209, 1);
+}
+.form_container form {
+    margin-top: 2.5em;
+}
+
+.form_container .form_header {
+    color: #F7D7D1;
+    background-color: rgba(207, 75, 50, 1);
+    padding: 0.5em 0;
+}
+
+.form_container .store {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #882C2C;
+}
+.form_container .store select {
+    border: 2px solid rgb(136, 44, 44);
+}
+.form_container .store_name {
+    margin-bottom: 0;
+}
+.form_container .store_address {
+    margin-top: 10px;
+}
+
+form label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: rgb(44, 44, 43);
+    font-size: 0.9em;
+}
+input.form-control, select.form-control {
+    font-family: 'Raleway', sans-serif;
+    border-width: 2px;
+    border-color: #EE7D67;
+    border-style: solid;
+}
+
+#form-group-input-email {
+    margin-bottom: 10px;
+}
+#form-group-select-service {
+    margin-bottom: 20px;
+}
+
+.form_container button, .form_container button:hover {
+    font-size: 1.8em;
+    font-style: italic;
+    background-color: rgb(207, 75, 50);
+    color: #FFFFFF;
+    border: solid 2px #FFF;
+}
+.form_container button:hover {
+    background-color: transparent;
+}
+
+#body {
+    padding-top: 3em;
+}
+
+.like_body {
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+.quote {
+    background-color: rgba(245, 245, 245, 1);
+    font-style: italic;
+}
+.quote h1 {
+    color: #2C2C2B;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    line-height: 22px;
+}
+hr.border, hr.border-black {
+    border-top: 3px solid rgb(207, 75, 50);
+}
+hr.border-black {
+    border-color: #000000;
+    width: 50%;
+    border-width: 1px;
+}
+.quote .signature {
+    text-align: right;
+}
+
+.description {
+    font-size: 0.9em;
+}
+.description .description_text {  }
+.description h2 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.description .description_illustration {  }
+
+.conclusion {
+    font-style: italic;
+    font-size: 1.3em;
+    padding-top: 2em;
+}
+
+.highlight_appointment p {
+    /*background-color: rgba(207, 75, 50, 1);*/
+    /*color: #FFF;*/
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0.8em 0;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.googlemap {
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+#page_success {
+    font-family: 'Raleway', sans-serif;
+}
+#page_success h2 {
+    color:#78B347;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.panel-default.color-vp {
+    border-color: rgb(207, 75, 50);
+}
+
+.panel-default.color-vp>.panel-heading {
+    color: #fff;
+    background-color: rgb(207, 75, 50);
+    border-color: rgb(207, 75, 50);
+    font-weight: 600;
+}
+
+.panel-default.color-vp .panel-footer {
+    background-color: rgba(247, 215, 209, 1);
+    border-top: 1px solid rgba(247, 215, 209, 1);
+}
+
+.tracking-pixel {
+    opacity: 0;
+    position: relative;
+    z-index: -1;
+}
+
+/* START Mobile */
+@media (max-width: 768px) {
+}
+/* END Mobile */

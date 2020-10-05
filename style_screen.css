@@ -1,0 +1,97 @@
+
+.logo {
+    padding-bottom: 1.5em;
+}
+
+.baseline {
+    font-size: 1em;
+    padding: 0.2em 0;
+    background-color: #000;
+    color: #FFF;
+    display: block;
+}
+
+.header_navigation {
+    margin: 0.7em 0;
+}
+
+#main_form {
+    margin-left: 2em;
+    width: 28%;
+}
+
+.form_header {
+    font-style: italic;
+    font-size: 1em;
+    line-height: 16px;
+    margin-bottom: 1em;
+}
+.form_header p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+.form_container input, .form_container select {
+    border-width: 1px;
+}
+.form_container .has-error input, .form_container .has-error select {
+    border-width: 3px;
+}
+/*.form_container .inputLastName {
+        padding-left: 0;
+}*/
+.form_container button {
+    letter-spacing: 0.1em;
+    border-width: 1px;
+}
+.form_container button:hover {
+    border-width: 1px;
+    background-color: #95341F;
+}
+
+.quote {
+    padding: 1em 15px 0.3em;
+}
+.quote h1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.quote hr.border {
+    margin: 28px 0;
+}
+.quote p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+}
+
+.description {
+    font-family: 'Raleway', sans-serif;
+}
+.description .row {
+    margin-bottom: 20px;
+}
+.description h2 {
+    margin-top: 0;
+}
+.description_illustration {
+    padding-right: 0;
+}
+
+.conclusion {
+    padding: 2em 0;
+}
+
+.container_homepage .description, .highlight_appointment {
+    padding-right: 0;
+    /*padding-left: 30px;*/
+}
+
+#widget-container {
+    margin-top: 6px;
+    transform: scale3d(.7,.7,.7);
+    transform-origin: right;
+}
+
+#widget-container > div, #ekw46 {
+    float: right !important;
+}
